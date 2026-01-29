@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio of Sajith K M - Aspiring Software Engineer, Web Developer, and Electronics & Instrumentation Student based in Kozhikode, India.">
+    <meta name="keywords" content="Sajith K M, Portfolio, Web Developer, Software Engineer, B.Tech, Kozhikode, Kerala">
+    <meta name="author" content="Sajith K M">
+    <meta property="og:title" content="Sajith K M | Aspiring Software Engineer">
+    <meta property="og:description"
+        content="Portfolio of Sajith K M - Aspiring Software Engineer, Web Developer, and Electronics & Instrumentation Student.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/profile.jpg">
+    <title>Sajith K M | Portfolio</title>
+
+    <!-- Favicon (Placeholder) -->
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>S</text></svg>">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/dock.css">
+</head>
+
+<body>
+
+    <!-- Background Animation (Flowing Blobs) -->
+    <div class="background-container">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <click-spark spark-color="#fff" spark-size="10" spark-radius="15" spark-count="8" duration="400"></click-spark>
+
+    <!-- Header / Navbar -->
+    <!-- Dock Navigation -->
+
+
+    <!-- Theme Toggle (Floating) -->
+    <div style="position: fixed; top: 20px; right: 20px; z-index: 1001;">
+        <button id="theme-toggle" aria-label="Toggle Dark Mode"
+            style="background: rgba(13,17,23,0.8); border: 1px solid rgba(255,255,255,0.1); width: 40px; height: 40px; border-radius: 50%; color: var(--text-primary); cursor: pointer; backdrop-filter: blur(5px);">
+            <i class="fas fa-moon"></i>
+        </button>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content" data-aos="fade-up">
+                    <p class="subtitle">Hello, I'm</p>
+                    <h1 class="title">Sajith K M</h1>
+                    <h2 class="role">
+                        <span id="role-text-1">Aspiring Software Engineer &</span> <br>
+                        <span class="highlight" id="role-text-2">Web Developer</span>
+                    </h2>
+                    <p class="description">
+                        I am a B.Tech student passionate about coding, technology, and building meaningful digital
+                        solutions.
+                    </p>
+                    <div class="hero-btns">
+                        <a href="#contact" class="btn btn-primary">Let's Talk</a>
+                        <a href="assets/Sajith_KM_Resume.pdf" target="_blank" class="btn btn-outline" download>Download
+                            Resume <i class="fas fa-download"></i></a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/sajith-k-m" target="_blank" aria-label="GitHub"><i
+                                class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/sajith-k-m/" target="_blank" aria-label="LinkedIn"><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a href="mailto:sajithkmomassery@gmail.com" aria-label="Email"><i
+                                class="fas fa-envelope"></i></a>
+                        <a href="https://wa.me/918078542686" target="_blank" aria-label="WhatsApp"><i
+                                class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image" data-aos="fade-left">
+                    <div class="img-wrapper">
+                        <!-- Placeholder if image missing, styles will handle it -->
+                        <img src="assets/profile.jpg" alt="Sajith K M"
+                            onerror="this.onerror=null; this.src='https://ui-avatars.com/api/?name=Sajith+K+M&background=0D8ABC&color=fff&size=500';">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">About Me</h2>
+                <div class="about-content" data-aos="fade-up">
+                    <p class="about-text">
+                        I am Sajith K M, a second-year B.Tech student in <strong>Applied Electronics and Instrumentation
+                            Engineering</strong> at Government Engineering College, Kozhikode. I have a strong interest
+                        in software development and enjoy working with Python, web technologies, and databases.
+                        <br><br>
+                        Alongside academics, I actively explore coding, participate in technical learning activities,
+                        and prepare for competitive programming and cybersecurity challenges like CTFs. I also enjoy
+                        experimenting with projects, improving my problem-solving abilities, and learning how real-world
+                        systems work.
+                        <br><br>
+                        I believe in continuous learning and self-improvement. My long-term goal is to become a skilled
+                        engineer who can build impactful technology solutions.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education & Experience -->
+        <section id="education" class="section">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">Education & Experience</h2>
+                <div class="timeline">
+                    <!-- Education -->
+                    <div class="timeline-item" data-aos="fade-right">
+                        <div class="timeline-content">
+                            <h3>B.Tech in Applied Electronics & Instrumentation</h3>
+                            <span class="date">2024 - Present</span>
+                            <p>Government Engineering College, Kozhikode</p>
+                            <p>Currently in 2nd Year.</p>
+                        </div>
+                    </div>
+
+                    <!-- Volunteering / Experience -->
+                    <div class="timeline-item" data-aos="fade-left">
+                        <div class="timeline-content">
+                            <h3>TinkerHub Volunteer</h3>
+                            <span class="date">2025 - Present</span>
+                            <p>Active volunteer engaging in tech community activities.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-aos="fade-right">
+                        <div class="timeline-content">
+                            <h3>Mulearn Member</h3>
+                            <span class="date">2024 - Present</span>
+                            <p>Participating in peer learning and tech cohorts.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-aos="fade-left">
+                        <div class="timeline-content">
+                            <h3>NSS Volunteer</h3>
+                            <span class="date">2022 - Present</span>
+                            <p>Active volunteer in School (2022-24) and College (2024-Present). Engaged in community
+                                service like "Shafad".</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">My Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category" data-aos="zoom-in">
+                        <h3>Languages</h3>
+                        <div class="skill-tags">
+                            <span>Python</span>
+                            <span>C</span>
+                            <span>C++</span>
+                            <span>JavaScript</span>
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>SQL (MySQL)</span>
+                        </div>
+                    </div>
+                    <div class="skill-category" data-aos="zoom-in" data-aos-delay="100">
+                        <h3>Tools & Frameworks</h3>
+                        <div class="skill-tags">
+                            <span>Git/GitHub</span>
+                            <span>VS Code</span>
+                            <span>Linux Basics</span>
+                            <span>Arduino</span>
+                            <span>NumPy</span>
+                            <span>Matplotlib</span>
+                        </div>
+                    </div>
+                    <div class="skill-category" data-aos="zoom-in" data-aos-delay="200">
+                        <h3>Soft Skills</h3>
+                        <div class="skill-tags">
+                            <span>Problem Solving</span>
+                            <span>Teamwork</span>
+                            <span>Documentation</span>
+                            <span>Public Speaking</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">Projects</h2>
+                <div class="projects-grid">
+
+                    <div class="project-card" data-aos="fade-up">
+                        <div class="project-info">
+                            <h3>Personal Portfolio Website</h3>
+                            <p>A responsive personal portfolio website to showcase skills, projects, and contact
+                                details.</p>
+                            <div class="tech-stack">
+                                <span>HTML</span><span>CSS</span><span>JS</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/sajith-k-m" target="_blank"><i class="fab fa-github"></i>
+                                    View Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="project-info">
+                            <h3>Academic Mini Projects</h3>
+                            <p>Small academic and practice projects using Python and basic electronics concepts
+                                including data processing.</p>
+                            <div class="tech-stack">
+                                <span>Python</span><span>C</span><span>Arduino</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/sajith-k-m" target="_blank"><i class="fab fa-github"></i>
+                                    View Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="project-info">
+                            <h3>CTF Practice Challenges</h3>
+                            <p>Solved beginner-level cybersecurity and CTF challenges to improve logical thinking and
+                                security fundamentals.</p>
+                            <div class="tech-stack">
+                                <span>Linux</span><span>Python</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/sajith-k-m" target="_blank"><i class="fab fa-github"></i>
+                                    View Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+                <div class="contact-container" data-aos="zoom-in">
+                    <p class="contact-text">Feel free to reach out for collaborations or just a friendly hello!</p>
+                    <div class="contact-cards">
+                        <a href="mailto:sajithkmomassery@gmail.com" class="contact-card">
+                            <i class="fas fa-envelope"></i>
+                            <span>sajithkmomassery@gmail.com</span>
+                        </a>
+                        <a href="tel:+918078542686" class="contact-card">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 8078542686</span>
+                        </a>
+                        <a href="https://wa.me/918078542686" target="_blank" class="contact-card">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>Chat on WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer / Bubble Menu -->
+    <footer class="footer-section">
+        <div class="bubble-menu-items">
+            <ul class="pill-list">
+                <li class="pill-col">
+                    <a href="#hero" class="pill-link"
+                        style="--rotation: -8deg; --hover-bg: #3b82f6; --hover-text: #ffffff;">
+                        <span class="pill-label">Home</span>
+                    </a>
+                </li>
+                <li class="pill-col">
+                    <a href="#about" class="pill-link"
+                        style="--rotation: 8deg; --hover-bg: #10b981; --hover-text: #ffffff;">
+                        <span class="pill-label">About</span>
+                    </a>
+                </li>
+                <li class="pill-col">
+                    <a href="#projects" class="pill-link"
+                        style="--rotation: 8deg; --hover-bg: #f59e0b; --hover-text: #ffffff;">
+                        <span class="pill-label">Projects</span>
+                    </a>
+                </li>
+                <li class="pill-col">
+                    <a href="#contact" class="pill-link"
+                        style="--rotation: -8deg; --hover-bg: #8b5cf6; --hover-text: #ffffff;">
+                        <span class="pill-label">Contact</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2024 Sajith K M. Built with Passion.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/click-spark.js"></script>
+    <script src="assets/js/decrypted-text.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
