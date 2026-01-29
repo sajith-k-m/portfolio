@@ -895,13 +895,17 @@ body {
 
     /* Mobile Timeline Overhaul */
     .timeline::after {
-        left: 31px;
+        left: 20px;
     }
 
     .timeline-item {
         width: 100%;
-        padding-left: 70px;
-        padding-right: 25px;
+        padding-left: 50px;
+        padding-right: 15px;
+    }
+
+    .timeline-content {
+        padding: 15px 20px;
     }
 
     .timeline-item:nth-child(even) {
@@ -913,16 +917,11 @@ body {
     }
 
     .timeline-item::after {
-        left: 21px;
-        /* Align with line left: 31px - 2px width = ~29px center? NO. Line is at 31px. Dot width 20px. Center dot = 10px. Line center 2px. 
-        Line left: 31px. Width 4px. Centers at 33px.
-        Dot left: Need center at 33px. Dot width 20px. Left = 33 - 10 = 23px. */
-        left: 21px;
-        /* Adjust visually */
+        left: 12px;
     }
 
     .timeline-item:nth-child(even)::after {
-        left: 21px;
+        left: 12px;
     }
 
     /* Optimize Footer Padding */
