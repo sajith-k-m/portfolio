@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sajith-k-m.github.io/portfolio/sitemap.xml
