@@ -894,18 +894,29 @@ body {
     }
 
     /* Mobile Timeline Overhaul */
+    /* Mobile Container Check */
+    .container {
+        padding: 0 15px;
+    }
+
+    /* Mobile Timeline Overhaul */
     .timeline::after {
-        left: 20px;
+        left: 10px;
     }
 
     .timeline-item {
         width: 100%;
-        padding-left: 50px;
-        padding-right: 15px;
+        padding-left: 40px;
+        padding-right: 0;
     }
 
     .timeline-content {
-        padding: 15px 20px;
+        padding: 15px;
+    }
+
+    .timeline-content h3 {
+        font-size: 1.1rem;
+        /* Slightly smaller heading */
     }
 
     .timeline-item:nth-child(even) {
@@ -917,11 +928,11 @@ body {
     }
 
     .timeline-item::after {
-        left: 12px;
+        left: 2px;
     }
 
     .timeline-item:nth-child(even)::after {
-        left: 12px;
+        left: 2px;
     }
 
     /* Optimize Footer Padding */
