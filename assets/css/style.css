@@ -337,6 +337,7 @@ body {
 }
 
 .role {
+    font-family: 'Fira Code', monospace;
     font-size: 2rem;
     color: var(--text-secondary);
     margin-bottom: 20px;
